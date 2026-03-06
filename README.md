@@ -46,6 +46,17 @@
 
 ---
 
+## Windows Build
+
+This fork adds a Windows build via GitHub Actions. The upstream project focuses on macOS only.
+
+- **Download:** Check the [Releases](../../releases) page for `.exe` (NSIS installer) and `.msi` packages
+- **Note:** Builds are unsigned. Windows SmartScreen may show a warning on first launch — click "More info" then "Run anyway"
+- **Config location:** `%APPDATA%\com.melvynx.parler\settings_store.json`
+- **Logs:** `%LOCALAPPDATA%\com.melvynx.parler\logs\parler.log`
+
+---
+
 **A free, open source, and extensible speech-to-text application.**
 
 Parler is a cross-platform desktop application that provides speech transcription. Press a shortcut, speak, and have your words appear in any text field - locally or enhanced with cloud AI post-processing.
